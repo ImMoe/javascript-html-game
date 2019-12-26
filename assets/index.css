@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+  background-color: #151515;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.form-control, .form-control:focus {
+  background-color: #0a0a0a;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: 1px solid #982CBF;
+  box-shadow: none;
+  color: #fff;
+}
+
+.btn-success, .btn-success:focus, .btn-success:visited {
+  background-color: #982CBF;
+  border-color: #982CBF;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #a241c5;
+  border-color: #a241c5;
+}
+
+.card {
+  color: #0a0a0a;
+}

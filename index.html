@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/animate.css">
+  <link rel="stylesheet" href="assets/index.css">
+  <title>Reflexo - Ett spel för reaktionsförmågan</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="col-sm-12 col-md-5 col-lg-4 mx-auto mt-4">
+      <h4>Reflexio - Hur snabb är du?</h4>
+      <div class="form-group">
+        <label for="name"></label>
+        <input type="text" id="name" class="form-control" required autocomplete="off">
+        <small id="helpId" class="text-muted">Ange ditt namn</small>
+      </div>
+      <div class="form-group">
+        <label for="difficulty"></label>
+        <select class="form-control" id="difficulty">
+          <option>Enkelt</option>
+          <option>Svårt</option>
+        </select>
+        <small id="helpId" class="text-muted">Välj svårighet</small>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-success animated slideInUp">Börja spela</button>
+      </div>
+    </div>
+    
+    <div class="col-sm-12 col-md-5 col-lg-4 mx-auto mt-4">
+      <div class="card card-body">
+        <h6>Hur spelar man?</h6>
+        <p>- Spelet går ut på att du ska trycka på så många bollar du ser på skärmen.</p>
+        <h6>Hur lång tid har jag på mig?</h6>
+        <p>- Du har 30 sekunder på dig att spela.</p>
+        <h6><span style="color: purple">LILA</span> och <span style="color: gold;">GULD</span> boll i spelet</h6>
+        <p>- I spelet så finns det en lila boll och en guld boll och dessa ger dig poäng. </p>
+        <p>Den lila får du <strong>2 poäng</strong> och den guldiga motsvarar <strong>4 poäng</strong></p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="lib/user.js"></script>
+</body>
+</html>
