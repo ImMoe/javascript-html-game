@@ -1,5 +1,5 @@
 if (localStorage.getItem("player") == null) {
-  location.href = "/";
+  location.origin = "/";
 }
 // Game rules
 let magicBallPoint, goldenBallPoint, totalPoints, countDown;
@@ -69,7 +69,7 @@ function startTimer() {
       if (totalPoints > +localStorage.getItem("highscore")) {
         localStorage.setItem("highscore", totalPoints);
       }
-      return (location.href = "/result.html");
+      return (location.origin = "/result.html");
     }
     countDown -= 1;
     time.textContent = countDown + "s";
